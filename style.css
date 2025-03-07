@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(88, 159, 203), rgb(182, 215, 222));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    width: 30rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 3rem;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#Task {
+    height: 35px;
+    width: 15rem;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    height: 35px;
+    width: 120px;
+    background-color: rgb(88, 159, 203);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+button:hover {
+    background-color: rgb(60, 120, 170);
+}
+
+#tasklist {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.task-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.task-buttons button {
+    width: 140px;
+}
